@@ -10,7 +10,8 @@ connection();
 // middlewares
 app.use(express.json());
 app.use(cors());
-// const stockData = [
+// 
+
 //     {
 //       symbol: "AAPL",
 //       companyName: "Apple Inc.",
