@@ -114,7 +114,9 @@ app.use(cors());
 // }
 // instersData(stockData);
 
-
+app.get("/",(req,res)=>{
+  res.json("hello")
+})
 app.get("/api/stocks", async (req, res) => {
   try {
     const stocks = await Stock.find().catch((err) => {
